@@ -5,21 +5,11 @@ import { AppComponent } from './app.component';
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-<<<<<<< Updated upstream
-      imports: [
-        RouterTestingModule
-      ],
-      declarations: [
-        AppComponent
-      ],
-    }).compileComponents();
-=======
     imports: [
-        RouterTestingModule,
-        AppComponent
+        RouterTestingModule
     ],
+    declarations: [AppComponent],
 }).compileComponents();
->>>>>>> Stashed changes
   });
 
   it('should create the app', () => {
