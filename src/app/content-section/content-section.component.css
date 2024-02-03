@@ -41,4 +41,39 @@
     border-bottom: 1px solid #ccc;
     margin-bottom: 10px; /* Adjust the space between the line and the content */
   }
+
+  .profile-section {
+    margin-top: 20px; /* Adjust the space between the tabs and the profile section */
+  }
+  
+  .profile-section h2 {
+    font-size: 1.5em; /* Adjust the font size of the smaller header */
+  }
+  
+  .image-upload {
+    text-align: center;
+    margin-top: 20px; /* Adjust the space between the text and the image upload section */
+  }
+  
+  .upload-border {
+    width: 90%;
+    max-width: 400px; /* Adjust the maximum width of the bordered section */
+    height: 70px;
+    border: 2px dashed #ccc;
+    margin: 0 auto; /* Center the bordered section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .upload-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Adjust the space between the button and text */
+  }
   
