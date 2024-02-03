@@ -1,0 +1,44 @@
+/* main-content.component.css */
+
+.content-section {
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the total width/height */
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 10px; /* Add margin between tabs and content */
+  }
+  
+  .tab {
+    position: relative;
+    margin-right: 20px; /* Adjust the space between tabs */
+  }
+  
+  .tab a {
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 5px; /* Add padding at the bottom of the link */
+    display: inline-block;
+  }
+  
+  .underline {
+    position: absolute;
+    bottom: -10px; /* Adjust to overlap with the thin line */
+    left: 0;
+    width: 100%;
+    height: 3px; /* Adjust the height of the underline */
+    background-color: #007bff; /* Blue color for the underline */
+    visibility: hidden;
+  }
+  
+  .selected .underline {
+    visibility: visible;
+  }
+  
+  .line {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px; /* Adjust the space between the line and the content */
+  }
+  
