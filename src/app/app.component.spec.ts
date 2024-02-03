@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+<<<<<<< Updated upstream
       imports: [
         RouterTestingModule
       ],
@@ -12,6 +13,13 @@ describe('AppComponent', () => {
         AppComponent
       ],
     }).compileComponents();
+=======
+    imports: [
+        RouterTestingModule,
+        AppComponent
+    ],
+}).compileComponents();
+>>>>>>> Stashed changes
   });
 
   it('should create the app', () => {
