@@ -1,7 +1,5 @@
-<!-- main-content.component.html -->
 
 <div class="content-section">
-    <!-- Your content goes here -->
   
     <!-- Tabs -->
     <div class="tabs">
@@ -30,14 +28,52 @@
 
     <!-- Image Upload Section -->
     <div class="image-upload">
-      <div class="upload-border">
-        <button class="upload-button">Add File</button>
-        <p>or drag and drop files</p>
-      </div>
+        <span class="">Profile image</span>
+        <div class="upload-border">
+            <button class="upload-button">Add File</button>
+            <p>or drag and drop files</p>
+        </div>
     </div>
   </div>
 
-  <!-- Rest of your content -->
-  <p>This is the main content area.</p>
+
+<div class="content-section">
+    <div class="text-box-grid">
+      <div class="text-box">
+        <label for="box1">Label 1</label>
+        <input type="text" id="box1" />
+      </div>
+      <div class="text-box">
+        <label for="box2">Label 2</label>
+        <input type="text" id="box2" />
+      </div>
+      <div class="text-box">
+        <label for="box3">Label 3</label>
+        <input type="text" id="box3" />
+      </div>
+      <div class="text-box">
+        <label for="box4">Label 4</label>
+        <input type="text" id="box4" />
+      </div>
+    </div>
+    <div class="line add-vertical-space"></div>
+    <h1>Regional Settings</h1>
+    <p>Set your languages and timezone</p>
+    <div class="regional-settings">
+        <div class="each-regional-settings">
+            <label for="language">Language</label>
+            <select name="language" id="language">
+                <option value="English">English</option>
+            </select>
+        </div>
+        <div class="each-regional-settings">
+            <label for="timezone">Timezone</label>
+            <select name="timezone" id="timezone">
+                <option value="English"></option>
+            </select>
+        </div>
+    </div>
+  </div>
+  
   </div>
   

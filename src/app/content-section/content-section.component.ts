@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
     standalone: true
 })
 export class ContentSectionComponent {
-
+    constructor(){}
+    
+    ngOnInit(){
+        Intl.DateTimeFormat()
+    }
 }
